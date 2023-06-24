@@ -1,0 +1,45 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Faustina:ital,wght@1,300&family=Open+Sans:wght@300&display=swap');
+
+.container{
+    min-height: 76vh;
+    /* min-height: 100vh; */
+    padding:30px;
+    font-family: 'Faustina', serif;
+
+}
+h1{
+    text-align: center;
+    margin:12px 0;
+}
+
+.myForm{
+ display: flex;
+ flex-direction: column;
+ justify-content: center;
+ align-items: center;
+  }
+
+.myInput{
+    width:40%;
+    padding:9px;
+    margin:8px;
+    font-size:15px;
+    border-radius: 12px;
+    border: 2px solid  #e96565;
+}
+
+.btn{
+    border-radius: 12px;
+    background-color: #e96565;
+    color:white;
+    padding:12px 16px;
+    border: 2px solid  #e96565;
+    font-size:18px;
+
+}
+
+.btn:hover{
+    color: black;
+    cursor: pointer;
+    font-size:22px;
+}

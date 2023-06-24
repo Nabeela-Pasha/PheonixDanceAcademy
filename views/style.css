@@ -1,0 +1,109 @@
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@400;700&family=Faustina:ital,wght@1,300&family=Open+Sans:wght@300&display=swap');
+
+*{
+    margin:0px;
+    padding: 0px;
+}
+#navbar{
+    background-color: black;
+    font-family: 'Faustina', serif;
+    padding: 13px, 14px;
+}
+#navbar ul{
+    display: flex;
+    flex-direction: row;
+     justify-content: center;
+    align-items: center;
+}
+#navbar li{
+    list-style: none;
+}
+#navbar li a{ 
+   text-decoration: none;
+   font-size: 25px;
+    padding: 13px 20px;
+    color:white
+}
+#navbar li a:hover{
+    color: red;  
+}
+
+#navbar ul div{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ height: 80px;
+}
+
+#navbar ul div img{
+    height: 70px;
+}
+
+#intro{
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-family: 'Faustina', serif;
+    font-size: 65px;
+    align-items: center;
+    background: center/cover no-repeat url("https://images.unsplash.com/photo-1550026593-f369f98df0af?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mnx8ZGFuY2UlMjBhY2FkZW15fGVufDB8fDB8fHww&w=1000&q=80") ;
+    height: 500px;
+    /* background-color: red; */
+}
+#intro div.small{
+    font-size: 52px;
+    padding: 5px;
+}
+
+#mission{
+    height: 326px;; 
+    width: 67%;
+    margin: auto;
+}
+
+#mission h2{
+    font-size: 36px;
+    font-family: 'Faustina', serif;
+    text-align: center;
+    padding-top: 12px;
+}
+
+.card{
+    border: 2px solid black;
+    border-radius: 10px;
+    width: 30%;
+    margin: 23px 13px;
+    height: 209px;
+    display: inline-block;
+}
+.card h3{
+    text-align: center;
+    margin: 0 12px;
+    margin-top: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: red;
+    font-weight: bolder;
+}
+
+.card-box{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card-box img{
+    height: 150px;
+    margin-top: 5px;
+}
+
+#footer{
+    background-color: black;
+    height: 45px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#footer p{
+    color:white;
+}
